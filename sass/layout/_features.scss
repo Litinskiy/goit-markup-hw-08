@@ -1,8 +1,12 @@
 
 .features__features-list {
-    display: flex;
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
+
 }
+
+
+
 
 .features__features-list .item:not(:last-child) {
     margin-right: 30px;
