@@ -1,0 +1,17 @@
+
+.contact-nav__burger{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+@media screen and(min-width: 768px) {
+    display: none;
+    
+}
+}
+
+.contact-nav__burger-icon {
+    fill: var(--primery-title-color);
+}
+
+    

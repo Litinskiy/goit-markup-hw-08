@@ -2,6 +2,12 @@
     padding-top: 0;
 }
 
+.hero__container {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    text-align: center;
+}
+
 .hero__title {
     margin-top: 0;
     margin-bottom: 30px;
@@ -29,4 +35,34 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    // @media screen and (min-device-pixel-ratio: 2), 
+    //     screen and (min-resolution: 192dpi),
+    //     screen and (min-resolution: 2dppx)
+
+    // background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    //     url('../images/Hero.jpg');
+
+//     @media screen and(min-width:768px){
+
+// @media screen and (min-device-pixel-ratio: 2),
+//     min-resolution: (min-resolution: 192dpi),
+//     min-resolution: (2dppx);
+
+// background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//         url('../images/Hero.jpg');
+//     }
+
+        // @media screen and(min-width:1200px) {
+            // min-width: 1600px;
+            // min-height: 600px;
+            // padding-top: 200px;
+            // padding-bottom: 200px;
+//             @media screen and (min-device-pixel-ratio: 2),
+//                 min-resolution: 192dpi screen and (min-resolution: 192dpi),
+//                     screen and (min-resolution: 2dppx)
+
+// background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//         url('../images/Hero.jpg');
+//         }
 }

@@ -1,15 +1,19 @@
 .container {
+    max-width: 480px;
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    height: 60px;
+    @media screen and(min-width: 768px){
+        height: auto;
+    }
+    @media screen and(min-width: 1200px){
+        max-width: 1200px;
+    }
 }
 
-.hero__container {
-    padding-top: 200px;
-    padding-bottom: 280px;
-    text-align: center;
-}
+
 
 .features__container,
 .portfolio-button-container {

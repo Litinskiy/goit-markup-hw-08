@@ -1,7 +1,23 @@
 .contacts-nav {
-    display: flex;
-    margin-left: auto;
-}
+    display: none;
+    
+    @media screen and(min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+
+        .item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    @media screen and(min-width: 1200px) {
+        flex-direction: row;
+
+        .item:not(:last-child) {
+        margin-right: 30px;    
+        }
+         }
+        
+}}
 
 .contacts-nav__link {
     display: flex;
@@ -25,6 +41,4 @@
     fill: currentColor;
 }
 
-.contacts-nav .item:not(:last-child) {
-    padding-right: 50px;
-}
+
