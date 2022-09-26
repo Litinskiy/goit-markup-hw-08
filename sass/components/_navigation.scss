@@ -1,0 +1,18 @@
+.navigation {
+    display: flex;
+}
+
+.navigation .logo {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    display: none;
+}
+
+.site-nav .item+.item {
+    margin-left: 50px;
+}
+

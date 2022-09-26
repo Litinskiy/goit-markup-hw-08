@@ -1,0 +1,58 @@
+.clients__title {
+    margin-bottom: 50px;
+}
+
+.work__title,
+.team__title,
+.clients__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 366px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--primery-title-color);
+}
+
+.project-examples__project-title {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-title-color);
+}
+
+.features__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primery-title-color);
+}
+
+.footer-title {
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: var(--primary-white-color);
+}
+
+.team__title {
+    width: 264px;
+}
+
+.modal__title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #212121;
+}

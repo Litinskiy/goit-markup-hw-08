@@ -1,0 +1,88 @@
+.footer {
+    min-width: 1600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--footer-hero-background-color);
+    margin: 0 auto;
+}
+
+.footer__footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__footer-link-list .item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    height: 80px;
+    padding-top: 15px;
+    margin-left: 70px;
+    margin-right: 93px;
+    padding-bottom: 97px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 86px;
+    padding-top: 20px;
+    padding-bottom: 83px;
+}
+
+.footer__spam {
+    display: flex;
+}
+
+.footer__spam-field {
+    width: 358px;
+    height: 50px;
+    background-color: rgba(47, 48, 58, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding: 15px 0 15px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__spam-field input::placeholder {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.footer__icon {
+    margin-left: 10px;
+    fill: var(--primary-white-color);
+}
+
+.footer-wrapper {
+    display: flex;
+    margin-right: 70px;
+}
+
+.footer-wrapper__footer-logo {
+    display: inline-block;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    color: var(--primary-white-color);
+}
+
+.footer-wrapper__address-text {
+    width: 231px;
+    height: 21px;
+    margin-bottom: 9px;
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--primary-white-color);
+}
+
+
+
