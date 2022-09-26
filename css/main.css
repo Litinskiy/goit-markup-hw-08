@@ -902,7 +902,7 @@ body {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 696px;
+  width: 360px;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 26px;
@@ -914,12 +914,12 @@ body {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
+    width: 696px;
   }
 }
 
 .hero {
   max-width: 1600px;
-  height: 600px;
   margin-right: auto;
   margin-left: auto;
   min-height: 400px;
