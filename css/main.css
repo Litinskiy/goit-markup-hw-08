@@ -367,8 +367,13 @@ body {
 }
 
 .section {
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 94px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+  }
 }
 
 .work__section {
@@ -955,10 +960,16 @@ body {
 .features__title {
   margin-top: 0;
   margin-bottom: 10px;
-  width: 270px;
+  width: 100%;
+  text-align: center;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primery-title-color);
+}
+@media screen and (min-width: 768px) {
+  .features__title {
+    text-align: left;
+  }
 }
 
 .footer-title {
@@ -1134,8 +1145,13 @@ body {
 
 .features__text {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   line-height: 1.71;
+}
+@media screen and (min-width: 768px) {
+  .features__text {
+    margin-bottom: 0;
+  }
 }
 
 .clients {
@@ -1191,12 +1207,23 @@ body {
 }
 
 .business-card {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  width: 270px;
-  height: 168px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  min-width: 450px;
   text-align: center;
   background-color: var(--primary-white-color);
+}
+@media screen and (min-width: 768px) {
+  .business-card {
+    min-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .business-card {
+    min-width: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .business-card__name {
@@ -1603,9 +1630,12 @@ body {
   }
   .team__cards-list .team-cards {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .team__cards-list .team-cards {
+    width: 100%;
     width: calc((100% - 30px) / 2);
     max-width: 354px;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -51,6 +51,10 @@
 
 .features__text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     line-height: 1.71;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+        }
 }
