@@ -1085,14 +1085,14 @@ body {
   .features__features-list .item:nth-child(odd) {
     margin-right: 30px;
   }
-  .features__features-list .item:nth-child(n+3) {
+  .features__features-list .item:nth-child(n+5) {
     margin-top: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .features__features-list .item {
     width: calc((100% - 90px) / 4);
-    max-width: 270px;
+    width: 270px;
   }
   .features__features-list .item:not(:last-child) {
     margin-right: 30px;
