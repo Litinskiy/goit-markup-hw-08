@@ -11,7 +11,14 @@
 }
 
 .contact-nav__burger-icon {
+    cursor: pointer;
     fill: var(--primery-title-color);
 }
 
-    
+   .contact-nav__burger-icon:hover{
+    fill: var(--accent-color)
+   }
+
+    .contact-nav__burger-icon:focus {
+              fill: var(--accent-color)
+    }

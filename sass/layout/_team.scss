@@ -3,8 +3,28 @@
 }
 
 .team__cards-list {
+
+    
+@media screen and(min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
+
+    .team-cards{
+    
+    width: calc((100% - 30px) / 2);
+    max-width: 354px; 
+    margin-bottom: 30px;
+}
+}
+
+@media screen and(min-width: 1200px){ 
     justify-content: space-between;
+    .team-cards{
+    width: calc((100% - 90px) / 4);
+    max-width: 270px; 
+   
+}
+} 
 }
 
 .team-cards__photo {
