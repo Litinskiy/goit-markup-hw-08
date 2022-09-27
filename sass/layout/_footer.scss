@@ -1,9 +1,35 @@
 .footer {
-    min-width: 1600px;
+    min-width: 480px;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--footer-hero-background-color);
     margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        min-width: 768px;
+     }
+    
+    @media screen and (min-width: 1200px) {
+    min-width: 1600px;
+    }
+
+}
+
+.footer__container {
+    
+    padding-top: 0;
+    padding-bottom: 0;
+
+
+    @media screen and (min-width: 768px) {
+
+    }
+
+    @media screen and (min-width: 1200px) {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+}
 }
 
 .footer__footer-link {
@@ -32,6 +58,15 @@
     height: 86px;
     padding-top: 20px;
     padding-bottom: 83px;
+
+    @media screen and (min-width: 768px) {
+
+    }
+
+    @media screen and (min-width: 1200px) {
+    
+}
+
 }
 
 .footer-form__spam {
