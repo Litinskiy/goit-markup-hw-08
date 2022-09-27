@@ -1571,6 +1571,7 @@ body {
         flex-wrap: wrap;
   }
   .team__cards-list .team-cards {
+    width: 100%;
     width: calc((100% - 30px) / 2);
     max-width: 354px;
     margin-bottom: 30px;
