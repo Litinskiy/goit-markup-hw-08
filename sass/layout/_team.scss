@@ -4,33 +4,33 @@
 
 .team__cards-list {
 
+    .team-cards:not(:last-child){
+        margin-bottom: 30px;
+    }
     
 @media screen and(min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-
     .team-cards{
-    width: 100%;
-    margin-bottom: 30px;
-    }
     
-    .team-cards{
-    width: 100%;
     width: calc((100% - 30px) / 2);
     max-width: 354px; 
-    
+    margin-bottom: 30px;
 }
 }
 
 @media screen and(min-width: 1200px){ 
     justify-content: space-between;
+    
     .team-cards{
     width: calc((100% - 90px) / 4);
-    max-width: 270px; 
-   
+    
+        margin-bottom: 0;
+        }
+
 }
 } 
-}
+
 
 .team-cards__photo {
     display: block;
