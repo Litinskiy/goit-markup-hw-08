@@ -2,14 +2,16 @@
 
 .social-icon-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 206px;
     height: 44px;
-    margin-left: 137px;
 
     @media screen and (min-width: 768px) {
     display: flex;
     margin-left: 0;
     }
+
 
 }
 
