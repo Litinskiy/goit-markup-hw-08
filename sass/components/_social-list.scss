@@ -4,14 +4,11 @@
     display: flex;
     width: 206px;
     height: 44px;
+    margin-left: 137px;
 
     @media screen and (min-width: 768px) {
-        
-    }
-    
-    @media screen and (min-width: 1200px) {
-   
-    
+    display: flex;
+    margin-left: 0;
     }
 
 }

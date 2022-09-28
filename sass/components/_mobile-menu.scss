@@ -4,6 +4,8 @@ top: 0;
 left: 0;
 width: 100vw;
 height: 100vw;
+width: 480px;
+height: 796px;
 background-color: var(--primary-white-color);
 padding: 48px 40px;
 z-index: 9;
@@ -18,7 +20,9 @@ display: none;
 } 
 }
 
-
+.mobile-menu__nav{
+    margin-bottom: 307px;
+}
 
 .mobile-menu__link {
     display: block;
