@@ -1,8 +1,16 @@
 .portfolio__button-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 34px;
-}
+    gap: 8px;
+
+    @media screen and(min-width:768px){
+        justify-content: center;
+
+    }
+        
+    }
+
 
 .portfolio__button-list .item:not(:last-child) {
     margin-right: 8px;
