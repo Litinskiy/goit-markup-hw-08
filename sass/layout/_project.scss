@@ -3,11 +3,8 @@
     flex-wrap: wrap;
 }
 
-
-
 .project-examples {
     padding: 20px 24px;
-    width: 370px;
     background: var(--primary-white-color);
     border: 1px solid #eeeeee;
 }
@@ -23,15 +20,35 @@
 
 
 .project .item {
-    margin-right: 30px;
+    text-align: start;
     margin-bottom: 30px;
-}
 
-.project .item:nth-child(3n) {
+@media screen and(min-width: 768px){
+    width: calc((100% - 30px) / 2);
+    &:nth-child(odd){
+        margin-right: 30px;
+    }
+
+@media screen and(min-width: 1200px){
+    width: 370px;
+    &:nth-child(odd){
     margin-right: 0;
+    }
+
+    &:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+}
 }
 
-.project .item:nth-last-child(-n + 3) {
+}
+
+
+// .project .item:nth-child(3n) {
+//     margin-right: 0;
+// }
+
+.project .item:nth-last-child(-n + 2) {
     margin-bottom: 0;
 }
 

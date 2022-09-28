@@ -1676,7 +1676,6 @@ body {
 
 .project-examples {
   padding: 20px 24px;
-  width: 370px;
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
 }
@@ -1690,15 +1689,30 @@ body {
 }
 
 .project .item {
-  margin-right: 30px;
+  text-align: start;
   margin-bottom: 30px;
 }
-
-.project .item:nth-child(3n) {
-  margin-right: 0;
+@media screen and (min-width: 768px) {
+  .project .item {
+    width: calc((100% - 30px) / 2);
+  }
+  .project .item:nth-child(odd) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .project .item {
+    width: 370px;
+  }
+  .project .item:nth-child(odd) {
+    margin-right: 0;
+  }
+  .project .item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
 }
 
-.project .item:nth-last-child(-n+3) {
+.project .item:nth-last-child(-n+2) {
   margin-bottom: 0;
 }
 
