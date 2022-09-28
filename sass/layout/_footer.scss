@@ -129,13 +129,12 @@
 
 .footer-form__spam-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 12px;
+    
     padding: 10px 0 10px 28px;
     cursor: pointer;
-    margin: 0 auto;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
@@ -148,7 +147,7 @@
     border-radius: 4px;
 
     @media screen and (min-width: 1200px) {
-    margin: auto;
+    margin:auto;
 }
 }
 
